@@ -1,0 +1,37 @@
+{
+  "name": "react-i18n-demo",
+  "version": "1.0.0",
+  "description": "React Internationlization Demo",
+  "keywords": [
+    "react",
+    "i18n"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "i18next": "19.8.4",
+    "i18next-browser-languagedetector": "6.0.1",
+    "i18next-icu": "1.4.2",
+    "moment": "^2.29.1",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-i18next": "11.7.3",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "i18next-parser": "^3.5.0",
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "extract-translations": "i18next --fail-on-warnings"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
